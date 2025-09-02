@@ -1,1 +1,2 @@
-A simple HTML/JS/CSS starter template
+## Project-1: Single-Page CV 
+### Link: https://roadmap.sh/projects/single-page-cv
