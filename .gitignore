@@ -1,0 +1,24 @@
+.idx
+.vscode
+
+# Node.js dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Temporary files and logs
+*.log
+tmp/
+
+# Editor and OS specific files
+.DS_Store
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Other common ignored files
+Thumbs.db
