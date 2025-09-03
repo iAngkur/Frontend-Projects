@@ -1,95 +1,59 @@
 <html lang="en">
     <head>
-        <meta name="charset" content="UTF-8" >
-        <meta name="description" content="Single Page CV">
-        <meta name="keywords" content="CV, Resume">
-        <meta name="author" content="Angkur Mondal">
+        <meta name="charset" content="UTF-8" >      
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Angkur Mondal - Software Engineer</title>
+        
+        <!-- SEO -->
+        <meta name="title" content="Angkur Mondal - Software Engineer">  
+        <meta name="author" content="Angkur Mondal">
+        <meta name="description" content="A proficient software engineer having expertise in HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing, Presentation">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing, Presentation">
+        
+        <!-- Open Graphs -->
+        <meta name="og:URL" content="https://iangkur.github.io/">
+        <meta name="og:title" content="Angkur Mondal - Software Engineer">
+        <meta name="og:description" content="A proficient software engineer having expertise in HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing, Presentation">
+        <meta name="og:image" content="https://iangkur.github.io/images/my_pic.jpg">
 
         <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
-
-        <title>Single-Page CV</title>
-
-        <style>
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-            html {
-                font-size: 62.5%;                
-            }
-            
-            body{
-                min-height: 100vh;
-                line-height: 1.5;
-            }
-
-            main {
-                margin: 1rem;
-                padding: 3rem;
-                border: 2px solid black;
-            }
-
-            section, .designation {
-                margin-block: 1rem;
-            }
-
-            section > *:not(:last-child) {
-                margin-block-end: 1rem;
-            }
-
-            section h3:first-child {
-                color: blue;
-            }
-
-            h2:first-child, .designation {
-                color: green;
-            }
-            
-            ul {
-                padding-left: 1.5rem;
-            }
-
-            p, li {
-                font-size: 1.2rem;
-            }
-        </style>
     </head>
     <body>
-        <main>
-            <header>
-                <h1 class="name">Angkur Mondal</h1>
-                <h2 class="designation">Junior Frontend Developer</h2>
-                <div>
-                    <p>123 Your Street</p>
-                    <p>Your City, ST 12345</p>
+        <header>
+            <h1 class="name">Angkur Mondal</h1>
+            <h2 class="job-title">Junior Frontend Developer</h2>
+            <div class="address-container">
+                <address>
+                    123, Motijheel, Dhaka-1214<br />
+                    Bangladesh
                     <p>(123) 456-7890</p>
-                    <p>no_reply@example.com</p>
-                </div>
-            </header>
+                    <a href="mailto:mon.messaging@gmail.com">mon.messaging@gmail.com</a>
+                </address>
+            </div>
+        </header>
 
+        <main>
             <!-- Skills -->
             <section>
-                <h2>Skills</h2>
+                <h3 class="section-title">Skills</h3>
                 <p>HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing, Presentation</p>
             </section>
             
             <!-- Education -->
             <section>
-                <h2>Education</h2>
-                <div>
-                    <h3>School Name, Location - Degree</h3>
+                <h3 class="section-title">Education</h3>
+                <article>
+                    <h4>School Name, Location - Degree</h4>
                     <p>Month 20xx to Month 20xx</p>
                     <p>List of exiting things you did at university</p>
-                </div>
+                </article>
             </section>
 
             <!-- Experience -->
             <section>
-                <h2>Experience</h2>
-                <div>
-                    <h3>Company Name, Location - Job Title</h3>
+                <h3 class="section-title">Experience</h3>
+                <article>
+                    <h4>Company Name, Location - Job Title</h4>
                     <p>Month 20xx to Month 20xx</p>
                     <ul>
                         <li>List of achievements</li>
@@ -97,10 +61,10 @@
                         <li>List of achievements</li>
                     </ul>
                     <p><span>Skills:</span> List of skills used or gained at this company</p>
-                </div>
+                </article>
                 
-                <div>
-                    <h3>Company Name, Location - Job Title</h3>
+                <article>
+                    <h4>Company Name, Location - Job Title</h4>
                     <p>Month 20xx to Month 20xx</p>
                     <ul>
                         <li>List of achievements</li>
@@ -108,13 +72,16 @@
                         <li>List of achievements</li>
                     </ul>
                     <p><span>Skills:</span> List of skills used or gained at this company</p>
-                </div>
+                </article>
             </section>
-
-            <footer>
-                <h2>Across the Internet</h2>
-                <p>Add your LiknedIn, GitHub profile links</p>
-            </footer>
         </main>
+
+        <footer>
+            <h3 class="section-title">Across the Internet</h3>
+            <article>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </article>
+        </footer>
     </body>
 </html>
